@@ -17,7 +17,7 @@ req = urllib.request.Request(r"http://localhost:9000/api/issues/search?component
 reader = urllib.request.urlopen(req)
 
 
-size = int(reader.headers.get("Content-Length"))
+# size = int(reader.headers.get("Content-Length"))
 
 with open("output.json", 'wb')as f:
     curr = 0
@@ -31,7 +31,7 @@ with open("output.json", 'wb')as f:
         
 
         f.write(section)
-        curr += len(section)
+        # curr += len(section)
 
 
         # print(calc_progress(size, curr))
