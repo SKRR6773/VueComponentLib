@@ -15,7 +15,7 @@ req = urllib.request.Request("http://mrg-web01.mrgshrimp.local/GA_SERVICES/trans
 reader = urllib.request.urlopen(req)
 
 
-size = 
+size = int(reader.headers.get("Content-Length"))
 
 with open("output.pdf", 'wb')as f:
     curr = 0
@@ -28,7 +28,6 @@ with open("output.pdf", 'wb')as f:
 
         
         print(calc_progress(size, curr))
-
 
         f.write(section)
         curr += len(section)
