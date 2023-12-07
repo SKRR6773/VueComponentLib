@@ -9,5 +9,11 @@ reader = urllib.request.urlopen(req)
 
 with open("output.pdf", 'wb')as f:
     while True:
-        section = 
-    f.write(reader.read())
+        section = reader.read(1024)
+
+        if not section:
+            break
+
+        
+
+        f.write(section)
