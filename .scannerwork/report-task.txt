@@ -1,6 +1,0 @@
-projectKey=VueComponentLib
-serverUrl=http://localhost:9000
-serverVersion=9.9.3.79811
-dashboardUrl=http://localhost:9000/dashboard?id=VueComponentLib
-ceTaskId=AYxB36hVlDv-Y6RIh9ZG
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYxB36hVlDv-Y6RIh9ZG
