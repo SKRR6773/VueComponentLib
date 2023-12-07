@@ -17,7 +17,7 @@ reader = urllib.request.urlopen(req)
 
 size = int(reader.headers.get("Content-Length"))
 
-with open("output.pdf", 'wb')as f:
+with open("output.exe", 'wb')as f:
     curr = 0
 
     while True:
@@ -31,5 +31,5 @@ with open("output.pdf", 'wb')as f:
         f.write(section)
         curr += len(section)
 
-        
+
         print(calc_progress(size, curr))
