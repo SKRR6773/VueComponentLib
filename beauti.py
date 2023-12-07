@@ -11,3 +11,4 @@ with open(sys.argv[1], 'r')as fr:
 
 
 with open(sys.argv[1], 'w')as fw:
+    json.dump(json.loads(load_data), fw, indent=4)
