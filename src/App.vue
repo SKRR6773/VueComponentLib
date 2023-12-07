@@ -22,9 +22,6 @@
                 <div class="container">
                     <RouterLink to="/test/a">a</RouterLink>
                 </div>
-                <!-- <div class="container"> 
-                    <IntroductionView />
-                </div> -->
 
             </section>
         </div>
