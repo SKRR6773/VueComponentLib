@@ -5,7 +5,7 @@ import urllib.parse
 
 def calc_progress(full=100, curp=0):
     try:
-        return 
+        return f"{full}"
 
     except ZeroDivisionError:
         return "###############"
