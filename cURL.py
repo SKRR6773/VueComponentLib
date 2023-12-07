@@ -34,4 +34,4 @@ with open("output.json", 'wb')as f:
         curr += len(section)
 
 
-        print(calc_progress(size, curr))
+        # print(calc_progress(size, curr))
