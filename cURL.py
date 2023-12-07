@@ -7,6 +7,9 @@ def calc_progress(full=100, curp=0):
     try:
         full / curp
 
+
+        cur
+
     except ZeroDivisionError:
         pass
 
