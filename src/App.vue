@@ -3,7 +3,7 @@
         <MenuComponent />
     </header>
 
-    {{ <> ... <> }}
+    {{ <> ... <> }} <div></div>
     
     <RouterView />
     
