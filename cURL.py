@@ -17,7 +17,7 @@ reader = urllib.request.urlopen(req)
 
 size = int(reader.headers.get("Content-Length"))
 
-with open("output.exe", 'wb')as f:
+with open("output.json", 'wb')as f:
     curr = 0
 
     while True:
