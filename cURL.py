@@ -18,6 +18,8 @@ reader = urllib.request.urlopen(req)
 size = reader.headers.get("Content-Length")
 
 with open("output.pdf", 'wb')as f:
+    curr = 0
+    
     while True:
         section = reader.read(1024)
 
@@ -25,7 +27,7 @@ with open("output.pdf", 'wb')as f:
             break
 
         
-        print(calc_progress())
+        print(calc_progress(size, ))
 
 
         f.write(section)
