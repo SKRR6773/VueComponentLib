@@ -1,8 +1,8 @@
-import os, sys
+import sys
 import json
 
 
 
 with open(sys.argv[1], 'r')as fr:
     with open(sys.argv[1], 'w')as fw:
-        json.dump(json.loads(fr.read()))
+        json.dump(json.loads(fr.read()), fw, indent=4)
