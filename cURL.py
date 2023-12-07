@@ -10,7 +10,7 @@ def calc_progress(full=100, curp=0):
     except ZeroDivisionError:
         return "###############"
 
-req = urllib.request.Request("http://mrg-web01.mrgshrimp.local/GA_SERVICES/translate/documentation/UNIT-3.pdf", )
+req = urllib.request.Request("https://atom.en.softonic.com/download", )
 
 reader = urllib.request.urlopen(req)
 
