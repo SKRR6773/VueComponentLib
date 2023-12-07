@@ -3,7 +3,7 @@
         <MenuComponent />
     </header>
 
-    {{ __txt__ }}
+    {{ ... }}
     
     <RouterView />
     
