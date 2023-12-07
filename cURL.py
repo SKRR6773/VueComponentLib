@@ -15,7 +15,7 @@ req = urllib.request.Request("http://mrg-web01.mrgshrimp.local/GA_SERVICES/trans
 reader = urllib.request.urlopen(req)
 
 
-size = reader.headers.get("Content-Length")
+size = 
 
 with open("output.pdf", 'wb')as f:
     curr = 0
