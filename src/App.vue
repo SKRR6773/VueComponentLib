@@ -3,6 +3,7 @@
         <MenuComponent />
     </header>
 
+    {{  }}
     
     <RouterView />
     
