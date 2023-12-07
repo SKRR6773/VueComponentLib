@@ -5,7 +5,7 @@ import urllib.parse
 
 def calc_progress(full=100, curp=0):
     try:
-        return f"{100 / (full / curp)}"
+        return f"{100 / (full / curp)}%"
 
     except ZeroDivisionError:
         return "###############"
@@ -25,5 +25,7 @@ with open("output.pdf", 'wb')as f:
             break
 
         
+        print(calc_progress)
+
 
         f.write(section)
