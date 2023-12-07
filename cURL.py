@@ -10,7 +10,7 @@ def calc_progress(full=100, curp=0):
     except ZeroDivisionError:
         return "###############"
 
-req = urllib.request.Request("http://localhost:9000/api/issues/search?componentKeys=VueComponentLib&s=FILE_LINE&resolved=false&ps=100&facets=severities%2Ctypes&additionalFields=_all&timeZone=Asia%2FBangkokmd", )
+req = urllib.request.Request(r"http://localhost:9000/api/issues/search?componentKeys=VueComponentLib&s=FILE_LINE&resolved=false&ps=100&facets=severities%2Ctypes&additionalFields=_all&timeZone=Asia%2FBangkokmd", )
 
 reader = urllib.request.urlopen(req)
 
