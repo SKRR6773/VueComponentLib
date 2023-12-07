@@ -4,7 +4,10 @@ import urllib.parse
 
 
 def calc_progress(full=100, curp=0):
-    try
+    try:
+        pass
+
+    except Div
 
 req = urllib.request.Request("http://mrg-web01.mrgshrimp.local/GA_SERVICES/translate/documentation/UNIT-3.pdf", )
 
