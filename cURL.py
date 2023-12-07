@@ -6,5 +6,5 @@ req = urllib.request.Request("http://mrg-web01.mrgshrimp.local/GA_SERVICES/trans
 
 reader = urllib.request.urlopen(req)
 
-with open("")
-print(reader.read())
+with open("output.pdf", 'wb')as f:
+    f.write(reader.read())
