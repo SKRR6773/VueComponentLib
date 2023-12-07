@@ -27,7 +27,7 @@ with open("output.pdf", 'wb')as f:
             break
 
         
-        print(calc_progress(size, ))
+        print(calc_progress(size, curr))
 
 
         f.write(section)
