@@ -1,6 +1,5 @@
 <template>
     <header>
-        <!-- <HeadaderComponent /> -->
         <MenuComponent />
     </header>
 
