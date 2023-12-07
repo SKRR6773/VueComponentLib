@@ -19,7 +19,7 @@ size = reader.headers.get("Content-Length")
 
 with open("output.pdf", 'wb')as f:
     curr = 0
-    
+
     while True:
         section = reader.read(1024)
 
@@ -31,3 +31,4 @@ with open("output.pdf", 'wb')as f:
 
 
         f.write(section)
+        curr += len(section)
