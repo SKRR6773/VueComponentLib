@@ -8,5 +8,6 @@ reader = urllib.request.urlopen(req)
 
 
 with open("output.pdf", 'wb')as f:
-    
+    while True:
+        section = 
     f.write(reader.read())
