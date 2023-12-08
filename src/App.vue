@@ -97,12 +97,13 @@
         margin: 0;
         list-style: none;
         list-style-type: none;
-        back
+        background-color: red;
     }
 
     .list li
     {
         width: 100%;
+        list
     }
     
     .list li a
