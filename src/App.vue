@@ -1,5 +1,5 @@
 <template>
-    <header style="">
+    <header style="border-radius: 1rem; ">
         <MenuComponent />
     </header>
 
