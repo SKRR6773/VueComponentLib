@@ -95,7 +95,8 @@
     .list
     {
         margin: 0;
-        list-style: none;
+        padding: 0;
+        /* list-style: none; */
         list-style-type: none;
         background-color: red;
     }
@@ -109,7 +110,7 @@
 
     .list li::marker
     {
-        content: ;
+        content: '';
     }
     
     .list li a
