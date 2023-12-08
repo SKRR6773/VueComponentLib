@@ -4,22 +4,10 @@
     </header>
 
     
-    <RouterView />
     
-    <div class="container p-0 box" style="margin-top: 10vh;">
-        <div class="container-fluid bg-light" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
-            
-            <!-- header sidebar and menu -->
-            
-            <section class="content" style="overflow: hidden;">
-                <!-- content -->
-                
-                <div class="container">
-                    <RouterLink to="/test/a">a</RouterLink>
-                </div>
-
-            </section>
-        </div>
+    <div class="container-fluid p-0 box" style="margin-top: 10vh;">
+        .
+        <RouterView />
     </div>
 
 </template>
@@ -46,25 +34,4 @@
     
 </script>
 <style scoped>
-
-    .content
-    {
-        /* height: 0vh; */
-        transition: .7s;
-    }
-    .left, .right
-    {
-        width: 100%;
-    }
-
-    .sidebar
-    {
-        position: relative;
-    }
-
-    .list-menu
-    {
-        display: block;
-        width: 100%;
-    }
 </style>
