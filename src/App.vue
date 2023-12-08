@@ -105,6 +105,11 @@
         padding: 1vh;
     }
 
+    .list li a
+    {
+        display: block;
+    }
+
     .list li.active
     {
         background-color: #8a52fa;
