@@ -32,7 +32,7 @@
     
     onMounted(function(){
         console.log(route.params);
-        alert(route.params.id);
+        // alert(route.params.id);
     });
 
 </script>
