@@ -62,7 +62,13 @@
     /** translate */
     .slide-enter-active, .slide-leave-active
     {
-        transition: opacity: 1s, tra;
+        transition: opacity 1s, transform 1s;
+    }
+
+    .slide-enter-from, .slide-leave-to
+    {
+        opacity: 0;
+        transform: translateX(-30%);
     }
 
 
