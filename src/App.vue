@@ -10,8 +10,10 @@
             <div class="container w-100 p-3">
                 <nav>
                     <header>
-                        <div class="logo"></div>
-                        <h2></h2>
+                        <div class="logo">
+                            <img src="https://www.flaticon.com/free-icon/book_12928500?term=book&related_id=12928500#" alt="">
+                        </div>
+                        <h2>My Library</h2>
                     </header>
                     <ul>
                         <li><a href="">Introduction</a></li>
