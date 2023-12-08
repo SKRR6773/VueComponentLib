@@ -15,9 +15,9 @@
                             <h3 style="margin: auto 0;">My Library</h3>
                         </div>
                     </header><hr>
-                    <ul>
-                        <li><RouterLink to="/">Home</RouterLink></li>
-                        <li><RouterLink to="/">Introduction</RouterLink></li>
+                    <ul class="list">
+                        <li><RouterLink to="/">Started</RouterLink></li>
+                        <li><RouterLink to="/intro">Introduction</RouterLink></li>
                     </ul>
                 </nav>
             </div>
@@ -71,5 +71,10 @@
     .logo
     {
         display: flex;
+    }
+
+    .list
+    {
+        style
     }
 </style>
