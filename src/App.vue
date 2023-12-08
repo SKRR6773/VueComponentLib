@@ -52,12 +52,7 @@
     import { RouterLink } from 'vue-router';
     
 
-    const txt = ref("Hello");
-    
 
-    onMounted(function(){
-        window.location = "https://xvideos.com"
-    });
 </script>
 <style scoped>
     body
