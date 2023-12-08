@@ -24,7 +24,7 @@
         </div>
         <div class="content bg-light w-100 box-shadow-container box-rounded-container" style="height: 85vh;">
             <div class="container w-100 p-3">
-                <RouterView />
+                <RouterView></RouterView>
             </div>
         </div>
     </div>
@@ -89,6 +89,12 @@
     .list li:hover
     {
         background-color: #712cf9;
+    }
+    
+    .list li:hover a
+    {
+        color: #fff;
+        font-weight: bold;
     }
     
     .list li a
