@@ -1,6 +1,8 @@
 <template>
     <header style="border-radius: 1rem; ">
         <MenuComponent />
+
+        หวัดดี
     </header>
 
     
@@ -59,7 +61,6 @@
 <style scoped>
     body
     {
-        back
         background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg');
     }
 
