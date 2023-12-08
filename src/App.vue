@@ -75,6 +75,12 @@
 
     .list
     {
-        style
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .list li
+    {
+        tex: none;
     }
 </style>
