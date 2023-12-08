@@ -97,17 +97,18 @@
         margin: 0;
         list-style: none;
         list-style-type: none;
+        back
     }
 
     .list li
     {
         width: 100%;
-        padding: 1vh;
     }
-
+    
     .list li a
     {
         display: block;
+        padding: 1vh;
     }
 
     .list li.active
