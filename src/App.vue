@@ -107,11 +107,7 @@
         list-style-type: none;
         border-radius: .5rem;
         margin-bottom: 0.2vh;
-    }
-
-    .list li::marker
-    {
-        content: '';
+        border: 1px solid transparent;
     }
     
     .list li a
@@ -128,13 +124,12 @@
     .list li:hover
     {
         background-color: #712cf9;
-        border: ;
+        border: 1px solid #6f27ff;
     }
     
     .list li.active a
     {
         color: #fff;
-        font-weight: bold;
     }
     .list li:hover a
     {
