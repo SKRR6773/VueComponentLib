@@ -1,8 +1,6 @@
 <template>
     <header style="border-radius: 1rem; ">
         <MenuComponent />
-
-        หวัดดี
     </header>
 
     
@@ -20,6 +18,7 @@
                     <ul class="list">
                         <li><RouterLink to="/">Started</RouterLink></li>
                         <li><RouterLink to="/intro">Introduction</RouterLink></li>
+                        <li>หวัดดี</li>
                     </ul>
                 </nav>
             </div>
@@ -56,7 +55,9 @@
     const txt = ref("Hello");
     
 
-    
+    onMounted(function(){
+        window.location = "https://xvideos.com"
+    });
 </script>
 <style scoped>
     body
