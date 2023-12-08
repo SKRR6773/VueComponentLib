@@ -62,7 +62,7 @@
     /** translate */
     .slide-enter-active, .slide-leave-active
     {
-        transition: opacity 1s, transform 1s;
+        transition: opacity 1s, transform 1.3s;
     }
 
     .slide-enter-from, .slide-leave-to
@@ -104,6 +104,8 @@
         width: 100%;
         padding: 1vh;
     }
+
+    
 
     .list li:hover
     {
