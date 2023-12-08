@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header style="">
         <MenuComponent />
     </header>
 
