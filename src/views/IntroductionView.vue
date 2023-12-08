@@ -35,10 +35,6 @@
         </div>
     </div>
 
-    <div>
-        
-    </div>
-
 
     <div class="toast-container position-fixed bottom-0 end-0 p-3">
         <div id="liveToast" ref="toastEl" class="toast" role="alert">
