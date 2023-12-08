@@ -1,50 +1,52 @@
 <template>
-    <div class="mt-3 h-100">
-        <header>
-            <h1><strong>Introduction</strong></h1>
-        </header>
-        <div class="container mt-3" style="overflow: auto;" id="intro.exam">
-            <header class="mb-3">
-                <h2 class="text-secondary">#Example: </h2>
+    <div style="overflow-y: auto;">
+        <div class="mt-3 h-100">
+            <header>
+                <h1><strong>Introduction</strong></h1>
             </header>
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <div class="left me-5">
-                        <textarea id="" cols="30" rows="10" style="width: 100%;" @input="" v-model="textareaData">
-                            
-                        </textarea>
-                        <SelectOptionWritterVue :raw_text.sync="textareaData" />
+            <div class="container mt-3" style="overflow: auto;" id="intro.exam">
+                <header class="mb-3">
+                    <h2 class="text-secondary">#Example: </h2>
+                </header>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="left me-5">
+                            <textarea id="" cols="30" rows="10" style="width: 100%;" @input="" v-model="textareaData">
+                                
+                            </textarea>
+                            <SelectOptionWritterVue :raw_text.sync="textareaData" />
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="right ms-5">
+                            <!-- <TestCompo /> -->
+                            <MatchingOption @handleResult="handleResult" :data="testData" />
+                
+                            {{ matchingValue }}
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="right ms-5">
-                        <!-- <TestCompo /> -->
-                        <MatchingOption @handleResult="handleResult" :data="testData" />
-            
-                        {{ matchingValue }}
-                    </div>
-                </div>
-            </div>
-        </div><hr>
-        <div class="mt-3">
-            <h3 align="center" class="d-block w-100"><strong style="font-size: 50px;">TEST</strong></h3>
+            </div><hr>
             <div class="mt-3">
-        
-                <TestView />
+                <h3 align="center" class="d-block w-100"><strong style="font-size: 50px;">TEST</strong></h3>
+                <div class="mt-3">
+            
+                    <TestView />
+                </div>
             </div>
         </div>
-    </div>
-
-
-    <div class="toast-container position-fixed bottom-0 end-0 p-3">
-        <div id="liveToast" ref="toastEl" class="toast" role="alert">
-            <div class="toast-header">
-                <strong>Save to Save?</strong>
-            </div>
-            <div class="toast-body">
-                Save Example Word To Successfully!
-
-                <!-- {{ matchingValue }} -->
+    
+    
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" ref="toastEl" class="toast" role="alert">
+                <div class="toast-header">
+                    <strong>Save to Save?</strong>
+                </div>
+                <div class="toast-body">
+                    Save Example Word To Successfully!
+    
+                    <!-- {{ matchingValue }} -->
+                </div>
             </div>
         </div>
     </div>
