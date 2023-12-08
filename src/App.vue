@@ -8,7 +8,15 @@
     <div class="container-fluid p-0 box px-5" style="margin-top: 12vh; display: flex;">
         <div class="sidebar bg-light box-shadow-container me-4 box-rounded-container" style="height: 85vh;">
             <div class="container w-100 p-3">
-                
+                <nav>
+                    <header>
+                        <div class="logo"></div>
+                        <h2></h2>
+                    </header>
+                    <ul>
+                        <li><a href="">Introduction</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
         <div class="content bg-light w-100 box-shadow-container box-rounded-container" style="height: 85vh;">
