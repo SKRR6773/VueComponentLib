@@ -11,10 +11,10 @@
                 <nav>
                     <header>
                         <div class="logo">
-                            <img src="https://cdn-icons-png.flaticon.com/512/12928/12928500.png" alt="logo image" style="width: 10vw%;">
-                            <h2>My Library</h2>
+                            <img src="https://cdn-icons-png.flaticon.com/512/12928/12928500.png" alt="logo image" style="width: 4vw;">
+                            <h5 style="margin: auto 0;">My Library</h5>
                         </div>
-                    </header>
+                    </header><hr>
                     <ul>
                         <li><a href="">Introduction</a></li>
                     </ul>
