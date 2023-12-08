@@ -6,7 +6,7 @@
     
     
     <div class="container-fluid p-0 box px-5" style="margin-top: 12vh; display: flex;">
-        <div class="sidebar">
+        <div class="sidebar bg-light box-shadow-container me-4" style="height: 80vh;">
             a
         </div>
         <div class="content w-100 box-shadow-container box-rounded-container" style="height: 80vh;">
