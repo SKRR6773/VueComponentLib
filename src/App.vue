@@ -128,6 +128,7 @@
     .list li:hover
     {
         background-color: #712cf9;
+        border: ;
     }
     
     .list li.active a
