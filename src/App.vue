@@ -75,12 +75,24 @@
 
     .list
     {
+        ทฟพ
         list-style: none;
-        text-decoration: none;
+        list-style-type: none;
     }
 
     .list li
     {
-        tex: none;
+        width: 100%;
+        padding: 1vh;
+    }
+
+    .list li:hover
+    {
+        background-color: grey;
+    }
+    
+    .list li a
+    {
+        text-decoration: none;
     }
 </style>
