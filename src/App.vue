@@ -62,7 +62,7 @@
     /** translate */
     .slide-enter-active, .slide-leave-active
     {
-        transition: opacity 1s, transform 1.3s;
+        transition: opacity 1s, transform 1s;
     }
 
     .slide-enter-from, .slide-leave-to
@@ -119,6 +119,7 @@
     .list li.active
     {
         background-color: #8a52fa;
+        border: 1px solid #8244ff;
     }
 
     .list li:hover
@@ -134,7 +135,6 @@
     .list li:hover a
     {
         color: #fff;
-        font-weight: bold;
     }
     
     .list li a
