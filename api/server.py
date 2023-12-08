@@ -5,7 +5,7 @@ import random
 
 
 app = Flask(__name__)
-CORS(app, origins="*", )
+CORS(app, origins="*", supports_credentials=False)
 
 
 options_data = [
