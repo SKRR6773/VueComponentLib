@@ -104,6 +104,7 @@
     {
         width: 100%;
         list
+        list-style-type: none;
     }
     
     .list li a
