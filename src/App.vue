@@ -17,7 +17,7 @@
                     </header><hr>
                     <ul class="list">
                         <li :class="{active: $route.path === '/'}"><RouterLink to="/">Started</RouterLink></li>
-                        <li :class="{active}"><RouterLink to="/intro" v-slot="{ isActive }">Introduction</RouterLink></li>
+                        <li :class="{active: $route.path === '/intro'}"><RouterLink to="/intro" v-slot="{ isActive }">Introduction</RouterLink></li>
                     </ul>
                 </nav>
             </div>
@@ -68,7 +68,7 @@
     .slide-enter-from, .slide-leave-to
     {
         opacity: 0;
-        transform: translateX(-30%);
+        transform: translateX(-100%);
     }
 
 
