@@ -75,7 +75,7 @@
 
     .list
     {
-        ทฟพ
+        margin: 0;
         list-style: none;
         list-style-type: none;
     }
@@ -88,7 +88,7 @@
 
     .list li:hover
     {
-        background-color: grey;
+        background-color: #712cf9;
     }
     
     .list li a
