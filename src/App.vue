@@ -25,7 +25,7 @@
         <div class="content bg-light w-100 box-shadow-container box-rounded-container" style="height: 85vh;">
             <div class="container w-100 p-3">
                 <RouterView v-slot="{Component}">
-                    <Transition name="slide" mode="">
+                    <Transition name="slide" mode="out-in">
                         <component :is="Component"></component>
                     </Transition>
                 </RouterView>
@@ -57,6 +57,15 @@
     
 </script>
 <style scoped>
+
+
+    /** translate */
+    .slide-enter-active, .slide-leave-active
+    {
+        transition: opacity: 1s, tra;
+    }
+
+
     .sidebar
     {
         width: 400px;
