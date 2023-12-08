@@ -57,7 +57,10 @@
     
 </script>
 <style scoped>
-
+    body
+    {
+        background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg');
+    }
 
     /** translate */
     .slide-enter-active, .slide-leave-active
