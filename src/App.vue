@@ -105,13 +105,21 @@
         padding: 1vh;
     }
 
-    
+    .list li.active
+    {
+        background-color: #8a52fa;
+    }
 
     .list li:hover
     {
         background-color: #712cf9;
     }
     
+    .list li.active a
+    {
+        color: #fff;
+        font-weight: bold;
+    }
     .list li:hover a
     {
         color: #fff;
