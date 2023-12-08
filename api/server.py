@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, make_response
 from flask_cors import CORS
 import json
 import random
@@ -122,4 +122,4 @@ def ExamWord():
 
 
 if __name__ == "__main__":
-    app.run('0.0.0.0', 7700)
+    app.run('0.0.0.0', )
