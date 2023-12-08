@@ -16,8 +16,8 @@
                         </div>
                     </header><hr>
                     <ul>
-                        <li></li>
-                        <li><a href="">Introduction</a></li>
+                        <li><RouterLink to="/">Home</RouterLink></li>
+                        <li><RouterLink to="/">Introduction</RouterLink></li>
                     </ul>
                 </nav>
             </div>

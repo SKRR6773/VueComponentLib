@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 
 import Home from '../views/Home.vue';
 import Test from '../views/TestView.vue';
+import Introduction
 
 
 
@@ -12,6 +13,11 @@ const router = createRouter({
             path: "/",
             name: "Home",
             component: Home
+        },
+        {
+            path: "/intro",
+            name: "Introduction",
+            component: 
         },
         {
             path: "/test/:id",
