@@ -17,7 +17,7 @@
                     </header><hr>
                     <ul class="list">
                         <li><RouterLink to="/">Started</RouterLink></li>
-                        <li><RouterLink to="/intro">Introduction</RouterLink></li>
+                        <li><RouterLink to="/intro" v-slot="{}">Introduction</RouterLink></li>
                     </ul>
                 </nav>
             </div>
