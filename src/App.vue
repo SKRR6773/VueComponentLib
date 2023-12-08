@@ -102,9 +102,14 @@
 
     .list li
     {
-        width: 100%;
-        list
+        display: block;
+        list-style: none;
         list-style-type: none;
+    }
+
+    .list li::marker
+    {
+        content: ;
     }
     
     .list li a
