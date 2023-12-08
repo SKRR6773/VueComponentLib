@@ -5,12 +5,12 @@
 
     
     
-    <div class="container-fluid p-0 box" style="margin-top: 10vh; display: flex;">
+    <div class="container-fluid p-0 box" style="margin-top: 12vh; display: flex;">
         <div class="sidebar">
             a
         </div>
-        <div class="content">
-            <div class="container">
+        <div class="content w-100">
+            <div class="container w-100">
                 <RouterView />
             </div>
         </div>
