@@ -1,5 +1,5 @@
 <template>
     <div>
-        <h1>Hello, Be Better Vue Components!</h1>
+        <h1><strong>Hello, Be Better Vue Components!</strong></h1>
     </div>
 </template>
