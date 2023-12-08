@@ -5,11 +5,11 @@
 
     
     
-    <div class="container-fluid p-0 box" style="margin-top: 12vh; display: flex;">
+    <div class="container-fluid p-0 box px-3" style="margin-top: 12vh; display: flex;">
         <div class="sidebar">
             a
         </div>
-        <div class="content w-100">
+        <div class="content w-100 box-shadow-container">
             <div class="container w-100">
                 <RouterView />
             </div>
@@ -43,5 +43,10 @@
     .sidebar
     {
         width: 400px;
+    }
+
+    .box-shadow-container
+    {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 </style>
