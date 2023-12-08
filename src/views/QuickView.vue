@@ -4,7 +4,7 @@
 
         <section>
             <header>
-                <h2>#1 </h2>
+                <h2 class="text-secondary">#1 เติมคำตอบ</h2>
             </header>
         </section>
     </div>
