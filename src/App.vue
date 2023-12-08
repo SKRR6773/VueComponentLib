@@ -5,9 +5,15 @@
 
     
     
-    <div class="container-fluid p-0 box" style="margin-top: 10vh;">
-        .
-        <RouterView />
+    <div class="container-fluid p-0 box" style="margin-top: 10vh; display: flex;">
+        <div class="sidebar">
+            a
+        </div>
+        <div class="content">
+            <div class="container">
+                <RouterView />
+            </div>
+        </div>
     </div>
 
 </template>
@@ -34,4 +40,8 @@
     
 </script>
 <style scoped>
+    .sidebar
+    {
+        width: 400px;
+    }
 </style>
