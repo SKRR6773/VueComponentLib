@@ -11,9 +11,9 @@
                 <nav>
                     <header>
                         <div class="logo">
-                            <img src="https://www.flaticon.com/free-icon/book_12928500?term=book&related_id=12928500#" alt="">
+                            <img src="https://cdn-icons-png.flaticon.com/512/12928/12928500.png" alt="logo image" style="width: 10vw%;">
+                            <h2>My Library</h2>
                         </div>
-                        <h2>My Library</h2>
                     </header>
                     <ul>
                         <li><a href="">Introduction</a></li>
@@ -65,5 +65,10 @@
     .box-rounded-container
     {
         border-radius: 1rem;
+    }
+
+    .logo
+    {
+        display: flex;
     }
 </style>
