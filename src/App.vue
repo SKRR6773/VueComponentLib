@@ -16,7 +16,7 @@
                         </div>
                     </header><hr>
                     <ul class="list">
-                        <li :class="{active: $route.path === '/'}"><RouterLink to="/">Q</RouterLink></li>
+                        <li :class="{active: $route.path === '/'}"><RouterLink to="/">Quick Start</RouterLink></li>
                         <li :class="{active: $route.path === '/intro'}"><RouterLink to="/intro" v-slot="{ route }">Introduction</RouterLink></li>
                     </ul>
                 </nav>
