@@ -3,18 +3,12 @@
         <MenuComponent />
     </header>
 
-    {{ <> ... <> }} <div></div> #in
     
     <RouterView />
     
     <div class="container p-0 box" style="margin-top: 10vh;">
         <div class="container-fluid bg-light" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
             
-            <div>
-                <span>
-                    {{ __txt__ }}
-                </span>
-            </div>
             <!-- header sidebar and menu -->
             
             <section class="content" style="overflow: hidden;">
