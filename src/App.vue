@@ -17,7 +17,7 @@
                     </header><hr>
                     <ul class="list">
                         <li :class="{active: $route.path === '/'}"><RouterLink to="/">Started</RouterLink></li>
-                        <li :class="{active: $route.path === '/intro'}"><RouterLink to="/intro" v-slot="{ isActive }">Introduction</RouterLink></li>
+                        <li :class="{active: $route.path === '/intro'}"><RouterLink to="/intro" v-slot="{ route }">Introduction</RouterLink></li>
                     </ul>
                 </nav>
             </div>
@@ -98,7 +98,6 @@
         padding: 0;
         /* list-style: none; */
         list-style-type: none;
-        background-color: red;
     }
 
     .list li
@@ -106,6 +105,8 @@
         display: block;
         list-style: none;
         list-style-type: none;
+        border-radius: .5rem;
+        margin-bottom: 0.2vh;
     }
 
     .list li::marker
