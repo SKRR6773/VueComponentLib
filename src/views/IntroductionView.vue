@@ -1,5 +1,5 @@
 <template>
-    <div style="overflow-y: auto;">
+    <div>
         <div class="mt-3 h-100">
             <header>
                 <h1><strong>Introduction</strong></h1>

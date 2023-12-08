@@ -22,7 +22,7 @@
                 </nav>
             </div>
         </div>
-        <div class="content bg-light w-100 box-shadow-container box-rounded-container" style="height: 85vh;">
+        <div class="content bg-light w-100 box-shadow-container box-rounded-container py-3" style="height: 85vh; overflow-y: auto;">
             <div class="container w-100 p-3" style="overflow: hidden;">
                 <RouterView v-slot="{Component}">
                     <Transition name="slide" mode="out-in">
