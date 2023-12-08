@@ -24,7 +24,11 @@
         </div>
         <div class="content bg-light w-100 box-shadow-container box-rounded-container" style="height: 85vh;">
             <div class="container w-100 p-3">
-                <RouterView></RouterView>
+                <RouterView v-slot="{Component}">
+                    <Transition name="slide" mode="">
+                        <component :is="Component"></component>
+                    </Transition>
+                </RouterView>
             </div>
         </div>
     </div>
