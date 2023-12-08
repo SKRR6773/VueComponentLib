@@ -39,7 +39,7 @@
         formData.append("answer", JSON.stringify(resultValue.value));
 
         axios({
-            url: "http://localhost:7700/chk_options",
+            url: "http://localhost:7755/chk_options",
             method: "POST",
             data: formData
         }).then(function(response){
@@ -63,7 +63,7 @@
     }
 
     onMounted(function(){
-        axios.get("http://localhost:7700/exam_options", ).then(function(response){
+        axios.get("http://localhost:7755/exam_options", ).then(function(response){
             // console.log(response.data);
             data.value = response.data;
         }).catch(function(err){

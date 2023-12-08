@@ -46,7 +46,7 @@
 
     onMounted(function(){
         axios({
-            url: "http://localhost:7700/exam_word",
+            url: "http://localhost:7755/exam_word",
             method: "POST",
         }).then(function(response){
             raw_text.value = response.data;
