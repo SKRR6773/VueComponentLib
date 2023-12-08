@@ -6,10 +6,10 @@
     
     
     <div class="container-fluid p-0 box px-5" style="margin-top: 12vh; display: flex;">
-        <div class="sidebar bg-light box-shadow-container me-4" style="height: 80vh;">
+        <div class="sidebar bg-light box-shadow-container me-4 box-rounded-container" style="height: 85vh;">
             a
         </div>
-        <div class="content w-100 box-shadow-container box-rounded-container" style="height: 80vh;">
+        <div class="content bg-light w-100 box-shadow-container box-rounded-container" style="height: 80vh;">
             <div class="container w-100">
                 <RouterView />
             </div>
