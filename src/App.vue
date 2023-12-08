@@ -16,8 +16,8 @@
                         </div>
                     </header><hr>
                     <ul class="list">
-                        <li><RouterLink to="/">Started</RouterLink></li>
-                        <li><RouterLink to="/intro" v-slot="{ isActive }">Introduction</RouterLink></li>
+                        <li :class="{active: $route.path === '/'}"><RouterLink to="/">Started</RouterLink></li>
+                        <li :class="{active}"><RouterLink to="/intro" v-slot="{ isActive }">Introduction</RouterLink></li>
                     </ul>
                 </nav>
             </div>
