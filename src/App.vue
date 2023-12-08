@@ -18,7 +18,6 @@
                     <ul class="list">
                         <li><RouterLink to="/">Started</RouterLink></li>
                         <li><RouterLink to="/intro">Introduction</RouterLink></li>
-                        <li>หวัดดี</li>
                     </ul>
                 </nav>
             </div>
